@@ -24,7 +24,6 @@ $(function () {
     $('.left_slider').slick({
         arrows: false,
         fade: true,
-
     });
     $('.right_slider').slick({
         arrows: false,
@@ -38,7 +37,6 @@ $(function () {
     $('.slide02 .right i:nth-child(2)').on('click', function () {
         $('.right_slider').slick('slickNext')
     })
-
 
 
 })
